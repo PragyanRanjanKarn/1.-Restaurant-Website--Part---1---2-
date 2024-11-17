@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: black;
+}
+
+/* Navigation Bar */
+
+.navigation-link {
+    border: 2px slid transparent;
+    border-radius: 2px;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid yellow;
+    transition: 0.5s ease;
+}
+
+/* Banner Main Heading */
+
+.m-heading {
+    font-weight: 650;
+}
+
+/* Main Container */
+
+.main-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main_row h1 {
+    font-size: 5rem;
+}
+
+.main_row img {
+    width: auto;
+    height: 95vh;
+}
