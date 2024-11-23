@@ -53,26 +53,38 @@
                 </div>
             </div>
         </div>
-    </div>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #000000;
+            }
 
-    <!-- Main Container -->
+            .signin-form {
+                background-color: rgb(170, 203, 252);
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgb(0, 0, 0);
+            }
+        </style>
 
-    <div class="main-container container">
-        <h2 style="color: rgb(0, 55, 255);" class="p-0">Welcome to</h2>
-        <h1 class="m-heading p-3" style="color: rgb(255, 136, 0, 0.91);">Fast Food Station's</h1>
-        <h2 style="color: rgb(0, 51, 255);" class="p-0">Website</h2>
-    </div>
+        <body>
 
-    <footer>
-        <div class="container text-muted text-center py-3 mt-5">
-            <h5>
-                Copyright &copy; 2024
-                <a href="#about" class="text-warning text-decoration-none">All Rights Are Reserved By Fast Food
-                    Station</a>
-            </h5>
-        </div>
-    </footer>
-
-</body>
+            <div class="signin-form">
+                <h2 class="text-center mb-4 text-warning">Sign In</h2>
+                <form>
+                    <div class="mb-3"> <label for="email" class="form-label text-warning">Email address</label> <input
+                            type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                    </div>
+                    <div class="mb-3"> <label for="password" class="form-label text-warning">Password</label> <input
+                            type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="d-grid"> <button type="submit" class="btn btn-primary">Sign In</button> </div>
+                </form>
+                <div class="text-center mt-3"> <a href="#">Forgot password?</a> </div>
+            </div>
+        </body>
 
 </html>

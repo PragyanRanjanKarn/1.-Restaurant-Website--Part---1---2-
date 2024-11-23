@@ -4,6 +4,7 @@ html {
 
 body {
     background: black;
+    font-family: "Baloo Tamma 2", cursive;
 }
 
 /* Navigation Bar */
@@ -36,13 +37,71 @@ body {
     background-image: url(Background.jpg);
     background-attachment: fixed;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .main_row h1 {
+
     font-size: 5rem;
+
 }
 
+
 .main_row img {
+
     width: auto;
-    height: 95vh;
+
+    height: 100vh;
+
+}
+
+.about {
+    background: #313552;
+    border-radius: 0.5rem;
+}
+
+.card {
+    border-bottom: 8px solid #f5ba09;
+}
+
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-image: url(Backgrounddd.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Background\(2\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Background\(3\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Background\(4\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 7px;
 }
